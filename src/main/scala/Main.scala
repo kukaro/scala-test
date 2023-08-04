@@ -3,6 +3,7 @@ object Main {
 
   def main(args: Array[String]): Unit = {
     println("HI")
-    a_$eq(20)
+    val bmw = new BMW
+    println(bmw)
   }
 }
