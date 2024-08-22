@@ -1,5 +1,7 @@
 package pattern
 
+import scala.concurrent.Future
+
 object Main {
   def main(args: Array[String]): Unit = {
     example("hello")
@@ -8,6 +10,7 @@ object Main {
     example2("hello")
     example2("world")
     example2("default")
+    Future
   }
 
   private def example(str: String): Unit = {
