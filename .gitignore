@@ -1,6 +1,6 @@
 target
-/.bsp
-/.idea
+.bsp
+.idea
 /logs
 /RUNNING_PID
 project/target
